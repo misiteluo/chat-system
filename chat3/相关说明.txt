@@ -1,0 +1,13 @@
+聊天系统第三版
+
+目前新增的功能有：
+工程编译与版本管理，使用rebar控制
+
+运行方式：
+ rebar3 compile
+服务端：
+    rebar3 shell
+    > chat_server:start_link().
+客户端(需至少开启两个)：
+    rebar3 shell
+    > chat_client:start_link().

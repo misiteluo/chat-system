@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/chat-system.iml" filepath="$PROJECT_DIR$/chat-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat1/chat1.iml" filepath="$PROJECT_DIR$/chat1/chat1.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat2/chat2.iml" filepath="$PROJECT_DIR$/chat2/chat2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat3/chat3.iml" filepath="$PROJECT_DIR$/chat3/chat3.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,11 @@
+{application,chat_app,
+             [{description,"Chat System Application"},
+              {vsn,"1.0"},
+              {registered,[chat_sup,chat_server]},
+              {mod,{chat_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[chat_app,chat_client,chat_client_handler,chat_server,
+                        chat_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
