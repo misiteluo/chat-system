@@ -1,0 +1,12 @@
+聊天系统第二版
+
+目前新增的功能有：
+<1>使用application和supervisor来组织程序。
+<2>使用gen_server代替spwan来创建进程。
+<3>gen_tcp:close做了异常捕获。
+<4>handle_message作为循环主函数，做异常处理。
+<5>函数中常用调试打印换成宏定义，避免重复，提高复用率：诸如io:format、timer:now_diff。
+
+运行方式：
+服务端：application:start(chat).
+客户端(需至少开启两个)：chat_client:start_link().
